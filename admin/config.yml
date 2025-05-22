@@ -1,9 +1,6 @@
 backend:
   name: git-gateway
   branch: main
-  auth_type: implicit
-  base_url: https://api.netlify.com
-  site_domain: fashionhaydee.netlify.app
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
