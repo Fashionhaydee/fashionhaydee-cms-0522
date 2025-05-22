@@ -1,16 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Fashionhaydee/fashionhaydee-cms-0522
   branch: main
-
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
-
-collections:
-  - name: "posts"
-    label: "Posts"
-    folder: "posts"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  auth_type: implicit
+  base_url: https://api.netlify.com
+  site_domain: fashionhaydee.netlify.app
