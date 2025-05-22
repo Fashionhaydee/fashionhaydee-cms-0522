@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: Fashionhaydee/fashionhaydee-cms-0522
+  name: git-gateway
   branch: main
   auth_type: implicit
   base_url: https://api.netlify.com
