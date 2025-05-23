@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Fashionhaydee/fashionhaydee-cms-0522
   branch: main
-  auth_type: oauth
+  auth_type: implicit
   base_url: https://api.netlify.com
   site_domain: fashionhaydee.netlify.app
 
